@@ -1,0 +1,617 @@
+.elementor-7 .elementor-element.elementor-element-336bca39>.elementor-container {
+    min-height: 400px;
+}
+
+.elementor-7 .elementor-element.elementor-element-336bca39>.elementor-background-overlay {
+    background-color: #000000;
+    opacity: 0.28;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-336bca39 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 0px 40px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-cd7f84f>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-cd7f84f>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-2e61e68c .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-1d63a22d {
+    color: #FFFFFF;
+}
+
+.elementor-7 .elementor-element.elementor-element-1d63a22d>.elementor-widget-container {
+    padding: 0px 100px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-92616c9 .elementor-button {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 35px 35px 35px 35px;
+}
+
+.elementor-7 .elementor-element.elementor-element-92616c9 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-92616c9 .elementor-button:focus {
+    color: var(--e-global-color-616cc58);
+    background-color: var(--e-global-color-accent);
+    border-color: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-92616c9 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-92616c9 .elementor-button:focus svg {
+    fill: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-726d2c11>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-726d2c11>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-620016eb>.elementor-container {
+    min-height: 184px;
+}
+
+.elementor-7 .elementor-element.elementor-element-620016eb>.elementor-background-overlay {
+    background-color: var(--e-global-color-616cc58);
+    opacity: 0.1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-620016eb {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-d3b3d71>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-d3b3d71>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-6fc8524a .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-133d59e0>.elementor-widget-container {
+    padding: 0px 100px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-2bd372df .elementor-button {
+    fill: #204A75;
+    color: #204A75;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #204A75;
+    border-radius: 35px 35px 35px 35px;
+}
+
+.elementor-7 .elementor-element.elementor-element-2bd372df .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-2bd372df .elementor-button:focus {
+    color: #FFFFFF;
+    background-color: #204A75;
+    border-color: #204A75;
+}
+
+.elementor-7 .elementor-element.elementor-element-2bd372df .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-2bd372df .elementor-button:focus svg {
+    fill: #FFFFFF;
+}
+
+.elementor-7 .elementor-element.elementor-element-4bf9931d>.elementor-container {
+    min-height: 461px;
+}
+
+.elementor-7 .elementor-element.elementor-element-4bf9931d:not(.elementor-motion-effects-element-type-background),
+.elementor-7 .elementor-element.elementor-element-4bf9931d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../../2022/07/ser_shap_l-323x1024-1-95x300-1.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 17% auto;
+}
+
+.elementor-7 .elementor-element.elementor-element-4bf9931d>.elementor-background-overlay {
+    background-color: var(--e-global-color-616cc58);
+    opacity: 0.05;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-4bf9931d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 70px 0px 70px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-1c8698f0 .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-5a1e6eb3 {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-43fddfa1 {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-590485fc>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-344fbc66 .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-344fbc66>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-24d96f32 {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-24d96f32>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-631743ca>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-6b203963 .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-6b203963>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-69408069 {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-69408069>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-3823c439>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-51550d3b .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-51550d3b>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-b42d376 {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-b42d376>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-699311ed>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-4cd583c1 .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-4cd583c1>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-f684f41 {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-f684f41>.elementor-widget-container {
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-7 .elementor-element.elementor-element-7c92ffa>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-b276bc3 .elementor-button {
+    fill: var(--e-global-color-616cc58);
+    color: var(--e-global-color-616cc58);
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-616cc58);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.elementor-7 .elementor-element.elementor-element-b276bc3 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-b276bc3 .elementor-button:focus {
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-b276bc3 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-b276bc3 .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-b276bc3>.elementor-widget-container {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-bc1c50d>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-e5b919b .elementor-button {
+    fill: var(--e-global-color-616cc58);
+    color: var(--e-global-color-616cc58);
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-616cc58);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.elementor-7 .elementor-element.elementor-element-e5b919b .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-e5b919b .elementor-button:focus {
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-e5b919b .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-e5b919b .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-e5b919b>.elementor-widget-container {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-032f5a7>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-348c2df .elementor-button {
+    fill: var(--e-global-color-616cc58);
+    color: var(--e-global-color-616cc58);
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-616cc58);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.elementor-7 .elementor-element.elementor-element-348c2df .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-348c2df .elementor-button:focus {
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-348c2df .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-348c2df .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-348c2df>.elementor-widget-container {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-28bd6bb>.elementor-element-populated {
+    margin: 6px 6px 6px 6px;
+    --e-column-margin-right: 6px;
+    --e-column-margin-left: 6px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-af09152 .elementor-button {
+    fill: var(--e-global-color-616cc58);
+    color: var(--e-global-color-616cc58);
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-616cc58);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.elementor-7 .elementor-element.elementor-element-af09152 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-af09152 .elementor-button:focus {
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-af09152 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-af09152 .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-af09152>.elementor-widget-container {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-8341123:not(.elementor-motion-effects-element-type-background),
+.elementor-7 .elementor-element.elementor-element-8341123>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../../2022/07/ser_shap_l-323x1024-1-95x300-1.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 17% auto;
+}
+
+.elementor-7 .elementor-element.elementor-element-8341123>.elementor-background-overlay {
+    background-color: var(--e-global-color-616cc58);
+    opacity: 0.05;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-8341123 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 40px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-d652360 .elementor-button {
+    fill: var(--e-global-color-accent);
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 33px 33px 33px 33px;
+    padding: 16px 50px 16px 50px;
+}
+
+.elementor-7 .elementor-element.elementor-element-d652360 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-d652360 .elementor-button:focus {
+    color: var(--e-global-color-616cc58);
+    background-color: #02010100;
+    border-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-d652360 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-d652360 .elementor-button:focus svg {
+    fill: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-39de3bf7>.elementor-background-overlay {
+    background-color: #204A75;
+    opacity: 0.09;
+}
+
+.elementor-7 .elementor-element.elementor-element-39de3bf7 {
+    padding: 50px 0px 50px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-d4b7153 {
+    text-align: center;
+}
+
+.elementor-7 .elementor-element.elementor-element-d4b7153 .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-d4b7153>.elementor-widget-container {
+    padding: 0px 0px 30px 0px;
+}
+
+/* .elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-posts-container .elementor-post__thumbnail {
+    padding-bottom: calc(0.67 * 100%);
+} */
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a:after {
+    content: "0.67";
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__meta-data span+span:before {
+    content: "•";
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a {
+    --grid-column-gap: 30px;
+    --grid-row-gap: 35px;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__card {
+    background-color: #204A7503;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__text {
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__badge {
+    right: 0;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__card .elementor-post__badge {
+    background-color: var(--e-global-color-616cc58);
+    font-size: 5px;
+    margin: 20px;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__title,
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__title a {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__excerpt p {
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__excerpt {
+    margin-bottom: 32px;
+}
+
+.elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-post__read-more {
+    color: #204A75;
+    margin-bottom: 17px;
+}
+
+.elementor-7 .elementor-element.elementor-element-07cd580>.elementor-background-overlay {
+    background-color: #204A75;
+    opacity: 0.09;
+}
+
+.elementor-7 .elementor-element.elementor-element-07cd580 {
+    padding: 0px 0px 50px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-06ad9e1 .elementor-button {
+    fill: var(--e-global-color-accent);
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 33px 33px 33px 33px;
+    padding: 16px 50px 16px 50px;
+}
+
+.elementor-7 .elementor-element.elementor-element-06ad9e1 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-06ad9e1 .elementor-button:focus {
+    color: var(--e-global-color-616cc58);
+    background-color: #02010100;
+    border-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-06ad9e1 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-06ad9e1 .elementor-button:focus svg {
+    fill: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-6760608b>.elementor-container {
+    min-height: 461px;
+}
+
+.elementor-7 .elementor-element.elementor-element-6760608b>.elementor-background-overlay {
+    background-color: var(--e-global-color-616cc58);
+    opacity: 0.26;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-6760608b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-7 .elementor-element.elementor-element-542a925f {
+    text-align: left;
+}
+
+.elementor-7 .elementor-element.elementor-element-542a925f .elementor-heading-title {
+    color: var(--e-global-color-616cc58);
+    font-family: "Poppins", Sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.elementor-7 .elementor-element.elementor-element-542a925f>.elementor-widget-container {
+    padding: 0px 0px 20px 0px;
+}
+
+.elementor-7 .elementor-element.elementor-element-880cc62 {
+    text-align: left;
+    color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-4d196ed7 .elementor-button {
+    fill: var(--e-global-color-616cc58);
+    color: var(--e-global-color-616cc58);
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 16px 50px 16px 50px;
+}
+
+.elementor-7 .elementor-element.elementor-element-4d196ed7 .elementor-button:hover,
+.elementor-7 .elementor-element.elementor-element-4d196ed7 .elementor-button:focus {
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-616cc58);
+    border-color: var(--e-global-color-616cc58);
+}
+
+.elementor-7 .elementor-element.elementor-element-4d196ed7 .elementor-button:hover svg,
+.elementor-7 .elementor-element.elementor-element-4d196ed7 .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-7 .elementor-element.elementor-element-7f990f5d img {
+    width: 78%;
+}
+
+:root {
+    --page-title-display: none;
+}
+
+@media(max-width:767px) {
+    .elementor-7 .elementor-element.elementor-element-2e61e68c .elementor-heading-title {
+        font-size: 31px;
+    }
+
+    /* .elementor-7 .elementor-element.elementor-element-447a2f7a .elementor-posts-container .elementor-post__thumbnail {
+        padding-bottom: calc(0.5 * 100%);
+    } */
+
+    .elementor-7 .elementor-element.elementor-element-447a2f7a:after {
+        content: "0.5";
+    }
+}

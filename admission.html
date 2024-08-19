@@ -1,0 +1,1370 @@
+<!doctype html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+
+
+    <!-- Material Design for Bootstrap CSS -->
+
+    <link rel="stylesheet"
+
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+
+
+
+<style>
+     
+     @media only screen and (max-width: 992px){
+     .activeee{
+        background-color:#1f4f75!important;
+          color:white !important;
+        }
+        .activeee a{
+        color:white !important;
+        }
+}
+   
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem!important;
+    padding-left: 1.5rem!important;
+    color: #204a75;
+    font-weight: 600!important;
+}
+        
+         footer{
+             background-color:#152F4B !important;
+         }
+          .btn-floating{
+                border-radius:50% !important;
+                border:none !important;
+                width:50px;
+                height:50px;
+                color:white !important;
+                position:relative;
+                margin-left:10px;
+               background-color:#204A75;
+}
+ footer .footer-text h2{
+    font-weight:600 !important;
+}
+.admission .overlay h1{
+    font-weight:600;
+    
+}
+.navbar-collapse ul li a{
+    font-weight:500 !important;
+}
+     </style>
+
+    <title>Oracle Force Academy</title>
+
+</head>
+
+
+
+<body>
+
+    <div id="hk"></div>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-white w-100 p-0" style="background-color: #eff2f5!important;">
+             <div class="container my-0 py-0">
+                 
+            <a class="navbar-brand" href="https://academy.oracleforce.com/index.html"><img src="wp-content/uploads/2022/05/logo-final-1.png" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2022/05/logo-final-1.png" style="width:124px;"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon" style="text-align: center; align-items: center;display: flex;"><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+            </button>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item activeee" >
+
+                        <a class="nav-link" href="https://academy.oracleforce.com" >Home <span
+
+                                class="sr-only">(current)</span></a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="https://academy.oracleforce.com/about-us.html">About Us</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="https://academy.oracleforce.com/courses.html">course</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="https://academy.oracleforce.com/blog.html">blog</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="https://academy.oracleforce.com/contact-us.php">contact</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+             </div>
+
+        </nav>
+
+    </header>
+
+    </div>
+
+
+
+    
+    <form onsubmit="return validate_image()" method="post" id="dform" enctype="multipart/form-data">
+
+    <div id="">
+
+        <div class="admission">
+
+            <div class="overlay">
+
+                <div class="container">
+
+                    <h1>Apply An Admission</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="">
+
+            <div class="container mt-5 mb-0">
+
+
+
+                <div class="row">
+
+                    <div class="col-md-4 ">
+
+                        <div class="pt-0 mt-0">
+
+                            <div class="m-0">
+
+                                <div class="border">
+
+                                    <div class="avatar-upload mt-3">
+
+                                        <div class="avatar-edit">
+
+                                            <input  name="pic" type="file" onchange="readURL(this);" id="imageUpload"
+
+                                                accept=".png, .jpg, .jpeg" required />
+
+                                            <label for="imageUpload"><i class="fa fa-plus"
+
+                                                    aria-hidden="true"></i></label>
+
+                                        </div>
+
+                                        <div>
+
+                                            <img style="height: 200px;" class="avatar-preview" id="blah"
+
+                                                src="images/download.png">
+
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                                <div id="error-msg" style="display: none;">
+
+                                    
+
+                                    <p class="text-warning">Please Upload Image</p>
+
+                                </div>
+
+                                
+
+
+
+                            </div>
+
+                            <div class="py-3">
+
+                                <div class="border p-3">
+
+                                    
+
+                                        <h2 class="text-center">SELECT COURSE</h2>
+
+                                        <br>
+                                                                            <p>
+
+                                            <input type="radio" value="Web Development" id="test1" name="radio-group" >
+
+                                            <label for="test1">Web Development</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Search Engine Optimization" id="test3" name="radio-group" >
+
+                                            <label for="test3">Search Engine Optimization</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Graphics Designing" id="test4" name="radio-group" >
+
+                                            <label for="test4">Graphics Designing</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Wordpress Customization" id="test5" name="radio-group" >
+
+                                            <label for="test5">Wordpress Customization</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Web Designing" id="test20" name="radio-group" >
+
+                                            <label for="test20">Web Designing</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Social Media Marketing" id="test22" name="radio-group" >
+
+                                            <label for="test22">Social Media Marketing</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Video Editing" id="test23" name="radio-group" >
+
+                                            <label for="test23">Video Editing</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="Mastering Shopify" id="test26" name="radio-group" >
+
+                                            <label for="test26">Mastering Shopify</label>
+
+                                        </p>
+                                                                                <p>
+
+                                            <input type="radio" value="others" id="test27" name="radio-group" >
+
+                                            <label for="test27">others</label>
+
+                                        </p>
+                                                                                <!--<p>-->
+
+                                        <!--    <input type="radio" value="Graphic Designing" id="test2" name="radio-group">-->
+
+                                        <!--    <label for="test2">Graphic Designing</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Search Engine Optimization" id="test3" name="radio-group">-->
+
+                                        <!--    <label for="test3">Search Engine Optimization</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Social Media Marketing" id="test4" name="radio-group">-->
+
+                                        <!--    <label for="test4">Social Media Marketing</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Wordpress Development" id="test5" name="radio-group">-->
+
+                                        <!--    <label for="test5">Wordpress Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Networking & CCNA" id="test6" name="radio-group">-->
+
+                                        <!--    <label for="test6">Networking & CCNA</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Personality Building" id="test7" name="radio-group">-->
+
+                                        <!--    <label for="test7">Personality Building</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Office Automation" id="test8" name="radio-group">-->
+
+                                        <!--    <label for="test8">Office Automation</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Mobile App Development" id="test9" name="radio-group">-->
+
+                                        <!--    <label for="test9">Mobile App Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Copywriting" id="test10" name="radio-group">-->
+
+                                        <!--    <label for="test10">Copywriting</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Content Writing" id="test11" name="radio-group">-->
+
+                                        <!--    <label for="test11">Content Writing</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Blogging" id="test12" name="radio-group">-->
+
+                                        <!--    <label for="test12">Blogging</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Freelancing Course" id="test13" name="radio-group">-->
+
+                                        <!--    <label for="test13"> Freelancing Course </label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Web Development" id="test1" name="radio-group" checked>-->
+
+                                        <!--    <label for="test1">Web Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input type="radio" value="Mobile App Development" id="test2" name="radio-group">-->
+
+                                        <!--    <label for="test2">Mobile App Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="Desktop App Development" type="radio" id="test3" name="radio-group">-->
+
+                                        <!--    <label for="test3">Desktop App Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="Graphics Designing" type="radio" id="test4" name="radio-group">-->
+
+                                        <!--    <label for="test4">Graphics Designing</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="CMS Development" type="radio" id="test5" name="radio-group">-->
+
+                                        <!--    <label for="test5">CMS Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="MS Office & Basics" type="radio" id="test6" name="radio-group">-->
+
+                                        <!--    <label for="test6">MS Office & Basics</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="C++ programming" type="radio" id="test7" name="radio-group">-->
+
+                                        <!--    <label for="test7">C++ programming</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="Java Programming" type="radio" id="test8" name="radio-group">-->
+
+                                        <!--    <label for="test8">Java Programming</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="Andriod App Development" type="radio" id="test9" name="radio-group">-->
+
+                                        <!--    <label for="test9">Andriod App Development</label>-->
+
+                                        <!--</p>-->
+
+                                        <!--<p>-->
+
+                                        <!--    <input value="Personality building" type="radio" id="test10" name="radio-group">-->
+
+                                        <!--    <label for="test10">Personality building</label>-->
+
+                                        <!--</p>-->
+
+                                    
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="col-md-6" >
+
+                        <h5 class="text-left">Personal Information</h5>
+
+                        <br>
+
+                        <form  role="form">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="name">Name</label>
+
+                                    <input type="text" class="form-control" id="name" name="name">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="name">Father's Name</label>
+
+                                    <input type="text" class="form-control" id="fname" name="fname" >
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Contact No</label>
+
+                                    <input type="text" class="form-control" id="phone" name="phone" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">CNIC</label>
+
+                                    <input type="text" class="form-control" id="idcard" name="idcard" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Father's Contact No</label>
+
+                                    <input type="text" class="form-control" id="fphone" name="fphone" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Email Address</label>
+
+                                    <input type="email" class="form-control" id="email" name="email" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Availability</label>
+
+                                    <select class="form-control" required name="available">
+                                    <option value="">Select Availability</option>
+                                    <option value="online">Online</option>
+                                    <option value="Physical">Physical</option>
+
+
+                                    </select>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Home Address</label>
+
+                                    <input type="text" class="form-control" id="address" name="address" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12"><br><br>
+
+                                <h5 class="text-left">Qualification</h5>
+
+                                <br>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="name">Qualification</label>
+
+                                    <input type="text" class="form-control" id="qualification" name="qualification" >
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">CGPA/Marks</label>
+
+                                    <input type="text" class="form-control" id="marks" name="marks" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Current Institute</label>
+
+                                    <input type="text" class="form-control" id="institute" name="institute" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Previous Skills</label>
+
+                                    <input type="text" class="form-control" id="skills" name="skills" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <br><br>
+
+                                <h5 class="text-left">Referred by</h5>
+
+                                <br>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Referred by</label>
+
+                                    <input type="text" class="form-control" id="refered" name="refered" 
+
+                                        aria-describedby="emailHelp">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="exampleInputtext">How did you reached us?</label>
+
+                                    <input type="text" class="form-control" id="reachedus" name="reachedus" >
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                            <br>
+
+                        <input style="margin: 0px !important;" type="submit" id="error-msg" name="done" class="btn btn-success" value="Submit Form">
+
+                        <br><br><br>
+
+                        </div>
+
+                            
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="col-md-6 ">
+
+                                
+
+                                <h5 style="" class="">Terms and Conditions</h5>
+
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <div class="terms">
+
+                                    <ul class=" mt-1 p-0">
+
+                                        <li><i class="far fa-check-circle"></i> Fee submitted would be non-refundable.
+
+                                        </li>
+
+                                        <li><i class="far fa-check-circle"></i> 500/- Rs would be admission form
+
+                                            submission fee</li>
+
+                                        <li><i class="far fa-check-circle"></i> You will only be eligible for
+
+                                            certificate after completing 100% and passing
+
+                                            final test.</li>
+
+                                        <li><i class="far fa-check-circle"></i> In case of any violation of discipline,
+
+                                            admission will be cancelled.</li>
+
+                                        <li><i class="far fa-check-circle"></i> You must have your own laptop for
+
+                                            practice and practical implementation</li>
+
+                                        <li><i class="far fa-check-circle"></i> You must have 80% attendance to continue
+
+                                            your course else you will be
+
+                                            disqualified </li>
+
+                                        <li><i class="far fa-check-circle"></i> Assignments and quizzes are mandatory
+
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                    
+
+                </div>
+
+                <div class="row text-center">
+
+                    <div class="col-md-4"></div>
+
+                    <div class="col-md-4">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</form>
+
+
+    </div>
+
+    <footer class="w-100" >
+
+        <div class="container mt-5 mb-0 pb-0">
+
+            <div class="row mt-5">
+
+                <div class="col-md-5">
+
+                    <div class="footer-text">
+
+                        <h2>ABOUT US</h2>
+
+                        <div class="border mt-3"></div>
+
+                        <br>
+
+                        <p>
+
+                            Oracle Force Academy is an international standard computer short courses training institute
+
+                            located in Kot Momain, Sargodha,
+
+                            Pakistan. It is a project of Oracle Force (Software Company).
+
+                            It is a place where learning begins and people become professional in skills and start
+
+                            earning through their
+
+                            professional skills.
+
+                            Professional developers and designers are teachers in Oracle Force Academy from Software
+
+                            Company.
+
+                        </p>
+
+                        <br>
+
+                        <div class="contanier">
+
+                            <img class="img-fluid" style="width:300px !important;" src="images/footer.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 text-left">
+
+                    <div class="footer-text text-left">
+
+                        <h2 class="ml-3">USEFUL LINKS</h2>
+
+                        <div class="border ml-3 mt-3"></div>
+
+                        <ul>
+
+                            <li class="mt-1"><a href="https://academy.oracleforce.com"><i class="fas fa-angle-right"></i>
+
+                                    Home</a></li>
+
+                            <li class="mt-1"><a href="https://academy.oracleforce.com/courses.html"><i
+
+                                        class="fas fa-angle-right"></i>
+
+                                    Courses</a></li>
+
+                            <li class="mt-1"><a href="https://academy.oracleforce.com/about-us.html"><i
+
+                                        class="fas fa-angle-right"></i> About
+
+                                    Us</a></li>
+
+                            <li class="mt-1"><a href="https://academy.oracleforce.com/contact.php"><i
+
+                                        class="fas fa-angle-right"></i>
+
+                                    Contact Us</a></li>
+
+                        </ul>
+
+                        <br><br>
+
+                        <div class="container pt-0">
+
+                            <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i
+
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <!--Twitter-->
+
+                            <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i
+
+                                    class="fab fa-youtube"></i></a>
+
+                            <!--Google +-->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="footer-text">
+
+                        <h2>GET IN TOUCH</h2>
+
+                        <div class="border mt-3"></div>
+
+                        <br>
+
+                        <p><i class="fas fa-location-arrow"></i>
+
+                           Oracle Force, Qainchi Mor Main Chowk Sargodha
+
+                        </p>
+
+                        <br>
+
+                        <p><i class="fas fa-envelope"></i>
+
+                            academy@oracleforce.com
+
+                        </p>
+
+                        <br>
+
+                        <p><i class="fas fa-phone"></i>
+
+                            +92 331 9711583
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       
+
+        <div class="container mb-0 m-auto">
+
+            <div class="row w-100">
+
+                <div class="col-md-6">
+
+                    <div class="copy-right text-left">
+
+                        <p class="text-white">All Rights Reserved Copyright © 2020 | A Project by <a
+
+                                href="https://www.oracleforce.com" target="_blank"><span style="color:#33cccc;"> Oracle Force<span></a></p>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/824fd32412.js" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    
+
+
+
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous">
+
+    </script>
+
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous">
+
+    </script>
+
+
+
+    <script>
+
+    $(document).ready(function() {
+
+        $('body').bootstrapMaterialDesign();
+
+    });
+
+    </script>
+
+    <script type="text/javascript">
+
+    function readURL(input) {
+
+        if (input.files && input.files[0]) {
+
+            var reader = new FileReader();
+
+
+
+            reader.onload = function(e) {
+
+                $('#blah')
+
+                    .attr('src', e.target.result);
+
+            };
+
+
+
+            reader.readAsDataURL(input.files[0]);
+
+        }
+
+    }
+
+    </script>
+
+</body>
+
+
+
+</html>
+
+<script>
+
+function readURL(input) {
+
+    if (input.files && input.files[0]) {
+
+        var reader = new FileReader();
+
+
+
+        reader.onload = function(e) {
+
+            $('#blah')
+
+                .attr('src', e.target.result);
+
+        };
+
+
+
+        reader.readAsDataURL(input.files[0]);
+
+    }
+
+}
+
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+    function validate_image(){
+
+        
+
+        var v=$('#imageUpload').val();
+
+
+
+        if(v==""){
+
+
+
+        $('#error-msg').css('display','block');
+
+        return false;
+
+    }
+
+
+
+    }
+
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+    var $form = $("#dform"),
+
+  $successMsg = $(".alert");
+
+$.validator.addMethod("letters", function(value, element) {
+
+  return this.optional(element) || value == value.match(/^[a-zA-Z\s]*$/);
+
+});
+
+$form.validate({
+
+
+
+
+
+
+
+  rules: {
+
+    name: {
+
+      required: true,
+
+      minlength: 3,
+
+      letters: true
+
+    },
+
+    fname: {
+
+        required: true,
+
+      minlength: 3,
+
+      letters: true
+
+  },
+
+  phone: {
+
+    required: true,
+
+      minlength: 11,
+
+      maxlength: 11,
+
+      
+
+  },
+
+  idcard: {
+
+    required: true,
+
+      minlength: 13,
+
+      maxlength: 13,
+
+      
+
+  },
+
+    fphone: {
+
+    required: true,
+
+      minlength: 11,
+
+      maxlength: 11,
+
+      
+
+  },
+
+  qualification: {
+
+    required: true,      
+
+  },
+
+    marks: {
+
+    required: true,      
+
+  },
+
+    institute: {
+
+    required: true,      
+
+  },
+
+    skills: {
+
+    required: true,      
+
+  },
+
+  address: {
+
+    required: true,      
+
+  },
+
+  refered: {
+
+    required: true,      
+
+  },
+
+  pic:{
+
+    required: true,      
+
+  },
+
+  reachedus: {
+
+    required: true,      
+
+  },
+
+  pic: {
+
+    required: true,      
+
+  },
+
+    email: {
+
+      required: true,
+
+      email: true
+
+    }
+
+    
+
+  },
+
+  messages: {
+
+    name: "Please specify your name (only letters and spaces are allowed)",
+
+    email: "Please specify a valid email address"
+
+        ,
+
+    fname: "Please specify your father's name (only letters and spaces are allowed)"
+
+        ,
+
+    
+
+  },
+
+  submitHandler: function() {
+
+      
+
+
+
+//     var n=$('#name').val();
+
+//     var fn=$('#fname').val();
+
+//     var p=$('#phone').val();
+
+//     var cn=$('#idcard').val();
+
+//     var fp=$('#fphone').val();
+
+//     var e=$('#email').val();
+
+//     var q=$('#qualification').val();
+
+//     var m=$('#marks').val();
+
+//     var i=$('#institute').val();
+
+//     var s=$('#skills').val();
+
+//     var r=$('#refered').val();
+
+//     var re=$('#reachedus').val();
+
+//     var c=$("input[name='radio-group']:checked"). val();
+
+//     var im=$('#imageUpload').val();
+
+
+
+
+
+//     $(document).ready(function(){
+
+
+
+//    $.ajax({
+
+//   url:'add-form.php',
+
+//   type:'get',
+
+//   data:{sname:n,fname:fn,phone:p,cnic:cn,fphone:fp,email:e,qualification:q,marks:m,institute:i,skills:s,refered:r,reachedus:re,course:c,pic:im},
+
+//   success:function(data){
+
+//     $("#name").val("");
+
+//     $("#fname").val("");
+
+//     $("#phone").val("");
+
+//     $("#idcard").val("");
+
+//     $("#fphone").val("");
+
+//     $("#email").val("");
+
+//     $("#qualification").val("");
+
+//     $("#marks").val("");
+
+//     $("#institute").val("");
+
+//     $("#skills").val("");
+
+//     $("#refered").val("");
+
+//     $("#reachedus").val("");
+
+
+
+// swal("Thank You!", "Your admission form submitted successfully!", "success");
+
+//   }
+
+// }); 
+
+//      });
+
+$('#dform').submit(true);
+
+  }
+
+});
+
+</script>
